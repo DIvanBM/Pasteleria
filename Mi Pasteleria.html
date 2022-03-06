@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pasteleria</title>
+</head>
+<body>
+    <img src="./Logo.png" alt="Logo Mi pasteleria" width="" height="">
+    <br>
+
+    <h1>Bienvenido al Creador de Pasteles</h1>
+    <br>
+
+    <h2>Elije el tamaño de su Pastel</h2>
+    <br>
+    <input type="radio" id="Chico" name="Tamaños" value="Chico">
+    <label for="Chico">Chico $150</label><br>
+    <input type="radio" id="Mediano" name="Tamaños" value="Mediano">
+    <label for="Mediano">Mediano $300</label><br>
+    <input type="radio" id="Grande" name="Tamaños" value="Grande">
+    <label for="Grande">Grande $600</label>
+    <br>
+
+    <h2>Elija sus sabores</h2>
+    <table>
+        <tr>
+            <th>Relleno</th>
+            <th>Cubierta</th>  
+            <th>Adornos</th>          
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="Vainilla" name="Relleno" value="Vainilla">
+                <label for="Vainilla">Vainilla</label>
+                <br>
+                <input type="radio" id="Chocolate" name="Relleno" value="Chocolate">
+                <label for="Chocolate">Chocolate</label>
+                <br>
+                <input type="radio" id="Fresa" name="Relleno" value="Fresa">
+                <label for="Fresa">Fresa</label>
+                <br>
+                <input type="radio" id="3 Leches" name="Relleno" value="3 Leches">
+                <label for="3 Leches">3 Leches</label>
+            </td>
+            <td>
+                <input type="checkbox" id="Cubierta1" name="Cubierta1" value="Chocolate">
+                <label for="Cubierta1">Chocolate $25</label>
+                <br>
+                <input type="checkbox" id="Cubierta2" name="Cubierta2" value="Fresas">
+                <label for="Cubierta2">Fresas $25</label>
+                <br>
+                <input type="checkbox" id="Cubierta3" name="Cubierta3" value="Drurazno">
+                <label for="Cubierta3">Durazno $25</label>
+                <br>
+                <input type="checkbox" id="Cubierta4" name="Cubierta4" value="Crema Pastelera">
+                <label for="Cubierta4">Crema Pastelera $25</label>
+            </td>
+            <td>
+                <input type="checkbox" id="Adorno1" name="Adorno1" value="Listones">
+                <label for="Adorno1">Listones $10</label>
+                <br>
+                <input type="checkbox" id="Adorno2" name="Adorno2" value="Velas">
+                <label for="Velas">Velas $10</label>
+                <br>
+                <input type="checkbox" id="Adorno3" name="Adorno3" value="Tarjeta">
+                <label for="Tarjeta">Tarjeta $10</label>
+            </td>            
+        </tr>        
+    </table>
+
+    <h2>Formulario de Pedido</h2>
+
+    <label for="Nombre">Nombre Completo</label><br>
+    <input type="text" id="Nombre" name="Nombre">
+    <br>
+    <label for="Numero">Numero Telefonico</label><br>
+    <input type="number" id="numero" name="numero">
+    <br>
+    <label for="Correo">Coreo Electronico</label><br>
+    <input type="email" id="correo" name="correo">
+    <br>
+    <label for="Descripcion">Descripción general del pastel y la selección de sabores y adornos</label><br>
+    <input type="text" id="Descripcion" name="Descripcion">
+    <br><br>
+
+    <input type="reset">
+    <input type="submit"><br>
+
+
+</body>
+</html>
